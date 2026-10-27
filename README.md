@@ -92,7 +92,9 @@ DocuMind-RAG/
 ├── ingest.py               # Document ingestion and indexing
 ├── constants.py            # Application configuration
 ├── requirements.txt        # Python dependencies
-├── .env                    # API keys (not committed)
+├── .env                    # API keys
+├── .gitignore              # Excluded files
+│
 ├── documents/              # PDF documents
 ├── chroma_db/              # Persistent vector database
 └── README.md
