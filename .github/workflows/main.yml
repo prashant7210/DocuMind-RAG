@@ -1,0 +1,16 @@
+name: RAG Workflow
+
+run-name: Run a RAG application
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run RAG app
+        run: python -m streamlit run app.py
